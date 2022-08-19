@@ -67,6 +67,10 @@ body {
 
 /* container-content aside*/
 
+.aside {
+    margin-right: 85px;
+}
+
 .aside h2 {
     font-size: 12px;
     line-height: 18px;
