@@ -17,10 +17,16 @@ body {
     height: 100vh;
     background-color: #051D3B;
     font-family: 'Inter', sans-serif;
+    font-size: 16px;
 }
 
 .container {
     padding: 32px;
+}
+.container-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 
@@ -56,4 +62,37 @@ body {
     line-height: 24px;
     font-weight: 400;
     color: #ffffff;
+}
+
+
+/* container-content aside*/
+
+.aside h2 {
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.4rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.aside ul {
+    margin: 0;
+}
+.aside ul li {
+    margin-bottom: 16px;
+}
+.aside ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+
+}
+
+.aside ul li a img {
+    margin-right: 16px;
 }
