@@ -8,67 +8,68 @@
     <link rel="stylesheet" href="./styles/index.css" />
 </head>
 <body>
-    <header>
-        <img src="./header/Logo.svg" alt="Logo do website Alura DEV" />
-        
-        <input type="text" placeholder="Busque por algo" />
-
-        <div>
-            <img src="./header/Photo.svg" alt="Foto de perfil do usuário" />
-            <span>James Mayke</span>
-        </div>
-    </header>
-
-    <aside>
-        <h2>Menu</h2>
-        <ul>
-            <li>
-                <a href="./index.html">
-                    <img src="./icons/editor.svg" alt="Ícone para a sessão: Editor de código" />
-                    Editor de código
-                </a>
-            </li>
-            <li>
-                <a href="">
-                    <img src="./icons/comunidade.svg" alt="Ícone para a sessão: Comunidade" />
-                    Comunidade
-                </a>
-            </li>
-        </ul>
-    </aside>
-
-    <main>
-        <div>
-            <span></span>
-            <span></span>
-            <span></span>
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-        </div>
-        <button>Visualizar com o highlight</button>
-    </main>
-
-    <section>
-        <form>
-            <div>
-                <h2>Seu projeto</h2>
-                <input type="text" name="" id="" placeholder="Nome do seu projeto" />
-                <textarea name="" id="" cols="30" rows="10" placeholder="Descrição do seu projeto"></textarea>
-            </div>
+    <div class="container">
+        <header class="header">
+            <img src="./header/Logo.svg" alt="Logo do website Alura DEV" />
+            
+            <input class="search-anything" type="text" placeholder="Busque por algo" />
 
             <div>
-                <h2>Personalização</h2>
-                <select name="" id="">
-                    <option value="">JavaScript</option>
-                    <option value="">HTML</option>
-                    <option value="">CSS</option>
-                </select>
-
-                <input type="color" name="" id="">
+                <img src="./header/Photo.svg" alt="Foto de perfil do usuário" />
+                <span>James Mayke</span>
             </div>
+        </header>
 
-            <button type="submit">Salvar projeto</button>
-        </form>
-    </section>
-    
+        <aside>
+            <h2>Menu</h2>
+            <ul>
+                <li>
+                    <a href="./index.html">
+                        <img src="./icons/editor.svg" alt="Ícone para a sessão: Editor de código" />
+                        Editor de código
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./icons/comunidade.svg" alt="Ícone para a sessão: Comunidade" />
+                        Comunidade
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+        <main>
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <button>Visualizar com o highlight</button>
+        </main>
+
+        <section>
+            <form>
+                <div>
+                    <h2>Seu projeto</h2>
+                    <input type="text" name="" id="" placeholder="Nome do seu projeto" />
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Descrição do seu projeto"></textarea>
+                </div>
+
+                <div>
+                    <h2>Personalização</h2>
+                    <select name="" id="">
+                        <option value="">JavaScript</option>
+                        <option value="">HTML</option>
+                        <option value="">CSS</option>
+                    </select>
+
+                    <input type="color" name="" id="">
+                </div>
+
+                <button type="submit">Salvar projeto</button>
+            </form>
+        </section>
+    </div>
 </body>
 </html>
