@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #051D3B;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-anything {
+    width: 752px;
+    height: 56px;
+
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 8px;
+    border: none;
+    padding-left: 8px;
+}
